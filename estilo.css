@@ -1,0 +1,40 @@
+/*inciar sesion*/
+h1{
+    font-size: 25px;
+}
+.estilos{   
+    display: block;
+    margin: 10% 40% auto;
+}
+
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.enviar{
+    width: 60%;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+}
+a p:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+/*registro*/
