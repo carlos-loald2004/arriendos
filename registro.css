@@ -9,6 +9,8 @@ body {
   font-family: "lato", sans-serif;
   background-color: white;
   background-size: cover;
+  background:url(imagenes/inicio.png)no-repeat 0px 0px ;  
+  background-size: 1400px 1400px;
 }
 .signupFrm {
   display: flex;
@@ -22,13 +24,12 @@ body {
   border-radius: 8px;
   padding: 20px 40px;
   box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
-  background: url(imagenes/tree.jpg) no-repeat 0px 0px;
   background-size: cover;
 }
 
 .title {
   font-size: 50px;
-  color: white;
+  color: black;
   margin-bottom: 50px;
   text-transform:uppercase;
 }
@@ -62,7 +63,7 @@ body {
   top: 15px;
   left: 15px;
   padding: 0 4px;
-  color: #DADCE0;
+  color: black;
   font-size: 16px;
   transition: 0.5s;
   z-index: 0;
@@ -74,7 +75,7 @@ body {
   padding: 15px 30px;
   border: none;
   background-color: blueviolet;
-  color: white;
+  color: black;
   border-radius: 6px;
   cursor: pointer;
   font-size: 16px;
@@ -91,7 +92,7 @@ body {
   z-index: 10;
   font-size: 14px;
   font-weight: 600;
-  color: white;
+  color: black;
 }
 .input:focus {
   border: 2px solid purple;
